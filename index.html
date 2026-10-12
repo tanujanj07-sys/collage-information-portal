@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>School of Engineering and Technology – Shivaji University, Kolhapur</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="logo">
+        <i class="fa-solid fa-building-columns"></i>
+        <div>
+          <div class="logo-main">School of Engineering & Technology</div>
+          <div class="logo-sub">Shivaji University, Kolhapur</div>
+        </div>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#departments">Departments</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <h1>School of Engineering and Technology</h1>
+      <p>
+        Shivaji University, Kolhapur – Vidyanagar, Maharashtra
+      </p>
+      <p class="hero-tagline">
+        Quality technical education, modern laboratories, and strong industry connect since 1962.
+      </p>
+      <div class="hero-buttons">
+        <a href="#admissions" class="btn btn-primary">Admissions 2026–27</a>
+        <a href="#departments" class="btn btn-outline">Explore Departments</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notices -->
+  <section class="notices">
+    <div class="container">
+      <h2 class="section-title">Latest Updates</h2>
+      <div class="notice-slider" id="noticeSlider">
+        <div class="notice-slide active">
+          <p>
+            <i class="fa-solid fa-bullhorn"></i>
+            Ph.D. Admission 2026–27 notifications are now available on the university portal.
+          </p>
+        </div>
+        <div class="notice-slide">
+          <p>
+            <i class="fa-solid fa-calendar"></i>
+            NAAC 4th Cycle Accreditation: School continues to maintain high academic standards.
+          </p>
+        </div>
+        <div class="notice-slide">
+          <p>
+            <i class="fa-solid fa-medal"></i>
+            Students encouraged to apply for President of India Medal for General Proficiency.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About the School</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            The School of Engineering and Technology at Shivaji University, Kolhapur, offers undergraduate and postgraduate programs across core and emerging engineering disciplines.
+          </p>
+          <p>
+            Located in the Vidyanagar campus, the school benefits from experienced faculty, well‑equipped laboratories, central library access, and active research culture.
+          </p>
+          <ul class="about-features">
+            <li><i class="fa-solid fa-check"></i> UGC Recognized University</li>
+            <li><i class="fa-solid fa-check"></i> NAAC Accredited (A++ level)</li>
+            <li><i class="fa-solid fa-check"></i> Industry Collaborations & Projects</li>
+            <li><i class="fa-solid fa-check"></i> Active Placement & Training Cell</li>
+          </ul>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-number">1962</div>
+            <div class="stat-label">University Established</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">6+</div>
+            <div class="stat-label">Engineering Departments</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">100+</div>
+            <div class="stat-label">Faculty Members</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">1000+</div>
+            <div class="stat-label">Students Enrolled</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Departments -->
+  <section id="departments" class="departments">
+    <div class="container">
+      <h2 class="section-title">Departments & Programs</h2>
+      <p class="section-subtitle">
+        Explore major engineering departments under the School of Engineering and Technology.
+      </p>
+
+      <div class="dept-grid">
+        <div class="dept-card">
+          <i class="fa-solid fa-laptop-code dept-icon"></i>
+          <h3>Computer Science & Technology</h3>
+          <p>
+            B.Tech in Computer Science and Technology with focus on software development, AI, and data science.
+          </p>
+        </div>
+
+        <div class="dept-card">
+          <i class="fa-solid fa-microchip dept-icon"></i>
+          <h3>Electronics & Telecommunication</h3>
+          <p>
+            B.Tech in Electronics and Telecommunication Engineering covering communication systems, VLSI, and embedded design.
+          </p>
+        </div>
+
+        <div class="dept-card">
+          <i class="fa-solid fa-cogs dept-icon"></i>
+          <h3>Mechanical Engineering</h3>
+          <p>
+            B.Tech in Mechanical Engineering with labs in thermodynamics, manufacturing, and design engineering.
+          </p>
+        </div>
+
+        <div class="dept-card">
+          <i class="fa-solid fa-road dept-icon"></i>
+          <h3>Civil Engineering</h3>
+          <p>
+            B.Tech in Civil Engineering focusing on structures, geotechnical, transportation, and environmental engineering.
+          </p>
+        </div>
+
+        <div class="dept-card">
+          <i class="fa-solid fa-flask dept-icon"></i>
+          <h3>Chemical Engineering</h3>
+          <p>
+            B.Tech in Chemical Engineering with emphasis on process design, reaction engineering, and plant operations.
+          </p>
+        </div>
+
+        <div class="dept-card">
+          <i class="fa-solid fa-wheat-awn dept-icon"></i>
+          <h3>Food Technology</h3>
+          <p>
+            B.Tech in Food Technology covering food processing, quality assurance, and safety standards.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2 class="section-title">Campus Gallery</h2>
+      <p class="section-subtitle">
+        A glimpse of the Shivaji University campus and School of Engineering & Technology.
+      </p>
+
+      <div class="gallery-grid">
+        <!-- Replace these URLs with your own images later -->
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1200&auto=format&fit=crop"
+            alt="Shivaji University Campus View"
+          />
+          <div class="gallery-caption">Campus View</div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1592280773902-d8e3e6c5d1f5?q=80&w=1200&auto=format&fit=crop"
+            alt="Engineering Building"
+          />
+          <div class="gallery-caption">Engineering Building</div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1581092580497-e0d23cb902f7?q=80&w=1200&auto=format&fit=crop"
+            alt="Laboratory"
+          />
+          <div class="gallery-caption">Laboratory</div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop"
+            alt="Students on Campus"
+          />
+          <div class="gallery-caption">Students on Campus</div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1200&auto=format&fit=crop"
+            alt="Library"
+          />
+          <div class="gallery-caption">Library</div>
+        </div>
+
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?q=80&w=1200&auto=format&fit=crop"
+            alt="Auditorium"
+          />
+          <div class="gallery-caption">Auditorium / Event Space</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admissions -->
+  <section id="admissions" class="admissions">
+    <div class="container">
+      <h2 class="section-title">Admissions</h2>
+      <p class="section-subtitle">
+        For UG/PG and Ph.D. programs, check eligibility and submit your enquiry.
+      </p>
+
+      <div class="admissions-wrapper">
+        <div class="admission-info">
+          <h3>Eligibility (Typical)</h3>
+          <ul>
+            <li>
+              <strong>B.Tech:</strong> 10+2 with PCM and valid entrance score (e.g., MHT‑CET / JEE).
+            </li>
+            <li>
+              <strong>M.Tech:</strong> B.Tech/B.E. in relevant branch with valid entrance score.
+            </li>
+            <li>
+              <strong>Ph.D.:</strong> M.Tech/M.E. or equivalent with valid fellowship/entrance as per university norms.
+            </li>
+          </ul>
+
+          <h3>How to Apply</h3>
+          <ul>
+            <li>Visit the official portal: <strong>sukapps.unishivaji.ac.in</strong></li>
+            <li>Check admission notifications for Engineering & Technology.</li>
+            <li>Fill online application, upload documents, and pay fees.</li>
+            <li>Attend counseling as per schedule.</li>
+          </ul>
+
+          <h3>Important Links</h3>
+          <ul>
+            <li>University website: <strong>www.unishivaji.ac.in</strong></li>
+            <li>Admission portal: <strong>sukapps.unishivaji.ac.in</strong></li>
+          </ul>
+        </div>
+
+        <form class="admission-form" id="admissionForm">
+          <h3>Enquiry Form</h3>
+
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your.email@example.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="10-digit mobile number"
+              pattern="[0-9]{10}"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="program">Interested Program</label>
+            <select id="program" name="program" required>
+              <option value="" disabled selected>Select a program</option>
+              <option value="B.Tech CSE">B.Tech Computer Science & Technology</option>
+              <option value="B.Tech E&TC">B.Tech Electronics & Telecommunication</option>
+              <option value="B.Tech Mechanical">B.Tech Mechanical Engineering</option>
+              <option value="B.Tech Civil">B.Tech Civil Engineering</option>
+              <option value="B.Tech Chemical">B.Tech Chemical Engineering</option>
+              <option value="B.Tech Food Tech">B.Tech Food Technology</option>
+              <option value="M.Tech">M.Tech (Any Branch)</option>
+              <option value="Ph.D.">Ph.D. (Engineering)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message (Optional)</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="3"
+              placeholder="Any specific queries?"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">
+            Submit Enquiry
+          </button>
+
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>Address</strong>
+              <p>
+                School of Engineering and Technology,<br />
+                Shivaji University, Vidyanagar,<br />
+                Kolhapur – 416004, Maharashtra, India
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong>Phone</strong>
+              <p>+91 231 2609XXX (University Board)</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <p>info@unishivaji.ac.in (University)</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fa-solid fa-globe"></i>
+            <div>
+              <strong>Websites</strong>
+              <p>
+                University: <a href="https://www.unishivaji.ac.in" target="_blank">www.unishivaji.ac.in</a><br />
+                Admissions: <a href="https://sukapps.unishivaji.ac.in" target="_blank">sukapps.unishivaji.ac.in</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15230!2d74.245!3d16.705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc117ee7f0a7e6d%3A0x6c8f6c8f6c8f6c8f!2sVidyanagar%2C%20Kolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000"
+            width="100%"
+            height="300"
+            style="border:0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Shivaji University Kolhapur Location Map"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <p>
+          &copy; 2026 School of Engineering and Technology, Shivaji University, Kolhapur.
+          For official information, visit
+          <a href="https://www.unishivaji.ac.in" target="_blank">www.unishivaji.ac.in</a>.
+        </p>
+      </div>
+      <div class="footer-right">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#departments">Departments</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
